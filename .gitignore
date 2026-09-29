@@ -1,0 +1,52 @@
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Competition data and audio
+data/
+input/
+*.wav
+
+# Model downloads, checkpoints, and generated feature caches
+whisper_models/
+mpnet_cache/
+wavlm_cache/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+deberta_*.npy
+*_embeddings.npy
+*_oof.npy
+
+# Derived data and experiment diagnostics
+asr_transcripts*.csv
+*_oof.csv
+*diagnostics*.csv
+final_calibration.csv
+final_classical_test_predictions.csv
+zero_detector_test.csv
+wavlm_blend_search.csv
+wavlm_oof_results.csv
+
+# Trial submissions; retain only the selected deliverable
+/submission*.csv
+!/submission.csv
+
+# Local development history and one-off refactor helper
+/notebook.ipynb
+/notebook_original.ipynb
+/tools_refactor_notebook.py
+
