@@ -179,4 +179,3 @@ For local inspection, Python dependencies are listed in `requirements.txt`. The 
 - The group stress test suggests that repeated speakers or recording sources could make random CV optimistic.
 - The decision to exclude score `0` is supported by the audit but assumes the hidden evaluation follows the stated 1–5 rubric.
 - A stronger next iteration would use speaker-aware folds if speaker IDs become available, compare multiple ASR decoders, and learn calibrated uncertainty from fold disagreement.
-
