@@ -1,6 +1,6 @@
 # Grammar Scoring Engine
 
-An end-to-end multimodal system that predicts a continuous grammar score from a spoken response. This repository is my solution to the SHL Hiring Assessment 2026 Kaggle challenge.
+An end-to-end multimodal system that predicts a continuous grammar score from a spoken response. 
 
 The final model combines information that survives transcription with information that does not:
 
